@@ -1,0 +1,1 @@
+docker run --name some-nginx -p5888:443 -v D:/test/html:/usr/share/nginx/html -v D:/test/conf/conf.d:/etc/nginx/conf.d  -vD:/test/cert:/opt/cert -d nginx
